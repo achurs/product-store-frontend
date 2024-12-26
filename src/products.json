@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Butterfly",
+        "price": 19.99,
+        "img": "https://plus.unsplash.com/premium_photo-1697295632798-1fd721338269?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Owl",
+        "price": 29.99,
+        "img": "https://images.unsplash.com/photo-1734907865880-6eb669831b9e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Turtle",
+        "price": 39.99,
+        "img": "https://images.unsplash.com/photo-1734704262365-135e0759ab71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Jellyfish",
+        "price": 49.99,
+        "img": "https://images.unsplash.com/photo-1734561832879-d3f07e0c1499?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Lizard",
+        "price": 59.99,
+        "img": "https://images.unsplash.com/photo-1732786097932-d9d206fcc484?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+        "name": "Cat",
+        "price": 69.99,
+        "img": "https://images.unsplash.com/photo-1734495912895-8e132ac15a49?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    }
+]

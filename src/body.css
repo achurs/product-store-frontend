@@ -1,0 +1,29 @@
+#body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    text-align: center;
+}
+#body button{
+    background-color: #167743;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+    align-items: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#body button:hover{
+    background-color: #0056b3;
+    transition: background-color 0.3s ease-in-out;
+}
