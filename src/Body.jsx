@@ -7,7 +7,7 @@ const Body = () => {
     const dispatch = useDispatch();
     const [currentPage, setCurrentPage] = useState(1);
     const [selectedProduct, setSelectedProduct] = useState(null);
-    const itemsPerPage = 5;
+    const itemsPerPage = 4;
     const indexOfLastProduct = currentPage * itemsPerPage;
     const indexOfFirstProduct = indexOfLastProduct - itemsPerPage;
     const currentItems = products.slice(indexOfFirstProduct, indexOfLastProduct);
@@ -38,7 +38,7 @@ const Body = () => {
                         <img src={product.img} alt={product.name} />
                         <div className="product-info">
                             <h2>{product.name}</h2>
-                            <p>${product.price.toFixed(2)}</p>
+                            <p>₹{product.price.toFixed(2)}</p>
                             <button onClick={(e) => {e.stopPropagation(); dispatch(addToCart(product)); }}>Add to Cart</button>
                         </div>
                     </div>

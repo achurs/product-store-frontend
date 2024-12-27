@@ -17,7 +17,7 @@ function Carts() {
                 {Object.keys(cart).map((key) => (
                     <li key={key}>
                         <img src={cart[key].img} alt={cart[key].name} width="50" height="50" />
-                        {cart[key].name} - ${cart[key].price.toFixed(2)} - {cart[key].quantity}
+                        {cart[key].name} - ₹{cart[key].price.toFixed(2)} - {cart[key].quantity}
                     </li>
                 ))}
             </ul>
