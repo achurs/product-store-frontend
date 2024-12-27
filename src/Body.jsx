@@ -56,7 +56,7 @@ const Body = () => {
                         <h2>{selectedProduct.name}</h2>
                         <img src={selectedProduct.img} alt={selectedProduct.name} />
                         <p>{selectedProduct.description}</p>
-                        <p>Price: ${selectedProduct.price.toFixed(2)}</p>
+                        <p>Price: ₹{selectedProduct.price.toFixed(2)}</p>
                         <button onClick={() => dispatch(addToCart(selectedProduct))}>Add to Cart</button>
                     </div>
                 </div>
